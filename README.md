@@ -1,2 +1,2 @@
 # repository
-Leírás
+ Új Leírás
