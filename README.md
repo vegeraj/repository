@@ -1,3 +1,2 @@
 # repository
- Új Leírás
- Kísérleti tartalom
+Description about the repository
