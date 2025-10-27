@@ -1,2 +1,1 @@
-Dokumentációs változás
-
+New documentation
