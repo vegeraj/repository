@@ -28,5 +28,5 @@ public class User {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
-    }
+    } //Test java
 }
