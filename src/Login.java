@@ -14,4 +14,12 @@ public class Login {
         this.username = username;
         this.password = password;
     }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Login{" +
+                "username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }
