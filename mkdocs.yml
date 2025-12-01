@@ -1,0 +1,20 @@
+site_name: Webshop Projekt Dokumentáció
+theme:
+  name: material
+
+# Itt kezdődik a menü definíciója
+nav:
+  - Kezdőlap: index.md
+  - Bevezetés:
+      - Projekt leírása: bevezetes/leiras.md
+      - Technológiai háttér: bevezetes/tech-stack.md
+  - Felhasználói Kézikönyv:
+      - Regisztráció: guide/regisztracio.md
+      - Termékek böngészése: guide/bongeszes.md
+      - Vásárlás menete: guide/kosar.md
+  - Adminisztrációs felület: admin/admin-guide.md
+  - GYIK: faq.md
+  - Linkek:
+      - Éles alkalmazás: http://az-en-webshopom.hu
+      - GitHub Repo: https://github.com/neved/projekted
+    
