@@ -1,20 +1,30 @@
-site_name: Webshop Projekt Dokumentáció
+site_name: Teendő App Dokumentáció
+site_url: https://pelda.hu/docs
+site_description: Felhasználói dokumentáció a Teendőkezelő alkalmazáshoz
+site_author: A Te Neved
+
 theme:
   name: material
+  language: hu
+  palette:
+    # Sötét/világos mód kapcsoló a jobb felső sarokban
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Váltás sötét módra
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Váltás világos módra
+  features:
+    - navigation.expand # A bal oldali menü alapból nyitva legyen
+    - content.code.copy # Másolás gomb a kódblokkokhoz
 
-# Itt kezdődik a menü definíciója
+# A menü szerkezete
 nav:
   - Kezdőlap: index.md
-  - Bevezetés:
-      - Projekt leírása: bevezetes/leiras.md
-      - Technológiai háttér: bevezetes/tech-stack.md
-  - Felhasználói Kézikönyv:
-      - Regisztráció: guide/regisztracio.md
-      - Termékek böngészése: guide/bongeszes.md
-      - Vásárlás menete: guide/kosar.md
-  - Adminisztrációs felület: admin/admin-guide.md
-  - GYIK: faq.md
-  - Linkek:
-      - Éles alkalmazás: http://az-en-webshopom.hu
-      - GitHub Repo: https://github.com/neved/projekted
-    
+  - Felhasználói kézikönyv:
+      - Új feladat felvétele: utmutato/uj_feladat.md
+      # Ide jöhet majd később: - Feladat törlése: utmutato/torles.md
+  - Projekt információk:
+      - GitHub Repo: https://github.com
