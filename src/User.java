@@ -24,7 +24,7 @@ public class User {
 
     @java.lang.Override
     public java.lang.String toString() {
-        return "User{" +
+        return "User:{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
